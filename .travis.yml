@@ -8,4 +8,5 @@ script:
   - $TRAVIS_BUILD_DIR/install-jdk.sh -F 11 --target $JAVA_HOME
   - # do stuff with open OpenJDK 11
 before_install:
-  - mvn clean install  
+  - mvn clean install
+  - chmod +x mvnw
