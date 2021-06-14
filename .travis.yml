@@ -1,6 +1,6 @@
-jdk: openjdk10
+jdk: openjdk11
 script:
-  - jdk_switcher use openjdk10
+  - jdk_switcher use openjdk11
   - # do stuff with OpenJDK 10
   - wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
   - chmod +x $TRAVIS_BUILD_DIR/install-jdk.sh
